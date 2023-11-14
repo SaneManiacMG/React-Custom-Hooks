@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import useDocumentTitle from "./hooks/useDocumentTitle";
+import useDocumentTitle from "../hooks/useDocumentTitle";
 
 const DocTitleTwo = () => {
 	const [count, setCount] = useState(0);
