@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import useDocumentTitle from "./hooks/useDocumentTitle";
 
-const DocTitleOne = () => {
+const DocTitleTwo = () => {
 	const [count, setCount] = useState(0);
 
 	useDocumentTitle(count);
@@ -13,4 +13,4 @@ const DocTitleOne = () => {
 	);
 };
 
-export default DocTitleOne;
+export default DocTitleTwo;
